@@ -1,4 +1,5 @@
 %global debug_package %{nil}
+%global _find_debuginfo_opts --no-ar-files
 Summary:	Glasgow Haskell Compiler 7.8.4
 Name:		ghc78
 Version:	7.8.4
