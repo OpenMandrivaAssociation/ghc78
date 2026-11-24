@@ -22,6 +22,7 @@ Source8:	%{name}.rpmlintrc
 
 BuildRequires:	ghc74
 BuildRequires:	gmp612
+BuildRequires:	pkgconfig(ncurses)
 BuildRequires:	gcc
 BuildRequires:	make
 BuildRequires:	patch
